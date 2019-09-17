@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "@oracle/oraclejet",
   "version": "7.1.0",
@@ -30,3 +31,22 @@
     "node": ">=4.0.0"
   } 
 }
+=======
+{
+  "name": "registrationlogin",
+  "version": "1.0.0",
+  "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "dependencies": {
+    "@oracle/oraclejet": "~7.1.0"
+  },
+  "devDependencies": {
+    "@oracle/oraclejet-tooling": "~7.1.0",
+    "qunit-reporter-junit": "^1.1.1",
+    "qunit": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}
+>>>>>>> 55b362808bfb596aabdf094881f648b7394f2ac3

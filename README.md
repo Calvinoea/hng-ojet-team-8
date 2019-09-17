@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Oracle JET version 7.1.0
 
 ## About Oracle JET
@@ -50,3 +51,6 @@ for details.
 ## [License](https://github.com/oracle/oraclejet/tree/master/LICENSE.md)
 Copyright (c) 2014, 2019 Oracle and/or its affiliates
 The Universal Permissive License (UPL), Version 1.0
+=======
+# hng-ojet-team-8
+>>>>>>> 55b362808bfb596aabdf094881f648b7394f2ac3
