@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple JET Page</title>
+    <meta charset="UTF-8">
+
+    <!-- This is the main css file for the default Alta theme -->
+    <link id="jetCss" rel="stylesheet" href="css/libs/oj/v7.1.0/alta/oj-alta-min.css" type="text/css" />
+
+    <!-- RequireJS configuration file -->
+    <script data-main="js/main" src="js/libs/require/require.js"></script>
+</head>
+
+<body>
+    <div id="div1">
+        <form id="myForm" method="get">
+
+            <label for="text-user">User:</label>
+            <input id="text-user" type="text" data-bind="ojComponent: {component: 'ojInputText', value: user, required:true, invalidComponentTracker: tracker}" />
+
+            <label for="text-password">Password:</label>
+            <input id="text-password" type="password" data-bind="ojComponent: {component: 'ojInputPassword', value: password, required:true, invalidComponentTracker: tracker}" />
+
+            <br /><br />
+            <input type=submit>
+        </form>
+        <span class="oj-label">Submitted value is: </span>
+        <span data-bind="text: submittedValue"></span>
+
+
+
+    </div>
+</body>
+
+</html>
